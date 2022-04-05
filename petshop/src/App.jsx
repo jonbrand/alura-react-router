@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Page404 from './pages/Page404';
 import Header from './components/Header';
+import { Post } from './pages/Post';
+import { Category } from './pages/Category';
 
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
         </Route>
         <Route path='/about'>
           <About />
+        </Route>
+        <Route path='/category/:id'>
+          <Category />
+        </Route>
+        <Route path='/posts/:id'>
+          <Post />
         </Route>
         <Route>
           <Page404 />

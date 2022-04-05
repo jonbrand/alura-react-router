@@ -1,13 +1,13 @@
 {
-  "categorias": [
+  "categories": [
     {
       "id": "bem-estar",
-      "nome": "bem-estar",
+      "name": "bem-estar",
       "subcategorias": ["higiene", "saude"]
     },
     {
       "id": "comportamento",
-      "nome": "comportamento",
+      "name": "comportamento",
       "subcategorias": ["treinamento", "educacao"]
     }
   ],
