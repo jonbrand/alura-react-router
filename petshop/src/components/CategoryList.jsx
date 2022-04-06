@@ -8,9 +8,7 @@ export const CategoryList = () => {
 
   useEffect(() => {
     search(`/categories`, setCategories)
-  }, [])
-
-  console.log(categories)
+  }, []);
   
   return(
     <ul className="lista-categorias container flex">
